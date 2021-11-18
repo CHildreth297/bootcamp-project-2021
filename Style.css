@@ -1,0 +1,59 @@
+* {
+    font-family: 'Segoe UI';
+    display: flex;
+    flex-direction: column;
+  
+}
+.title{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.intro{
+    color:black;
+}
+.picture{
+    width: 250px;
+    height: 314px
+}
+
+.recipe1{
+    padding: 50px;
+}
+
+.recipe2{
+    padding: 50px;
+}
+
+.recipe3{
+    padding: 50px;
+}
+/*Need to do
+- background color?
+- borders
+- general styling of the page 
+
+*/
+
+.button_add_ingredients{
+    border-radius: 50px;
+    height: 90px;
+    width: 90px;
+    border: none;
+    font-size: 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.newTextElement{
+    font-family: 'Segoe UI';
+    color: black;
+    font: 14px;
+
+}
